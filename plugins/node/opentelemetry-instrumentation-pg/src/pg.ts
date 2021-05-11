@@ -234,8 +234,8 @@ export class PgInstrumentation extends InstrumentationBase {
             [AttributeNames.PEER_ADDRESS]: jdbcString, // required
             [AttributeNames.PEER_PORT]: this.options.port,
             [AttributeNames.DB_USER]: this.options.user,
-            [AttributeNames.IDLE_TIMEOUT_MILLIS]: this.options
-              .idleTimeoutMillis,
+            [AttributeNames.IDLE_TIMEOUT_MILLIS]:
+              this.options.idleTimeoutMillis,
             [AttributeNames.MAX_CLIENT]: this.options.maxClient,
           },
         });
